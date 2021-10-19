@@ -1,0 +1,19 @@
+.movie {
+  display: flex;
+  background: #f4f4f4;
+  border: 1px solid #fff;
+
+  &__poster {
+    height: 150px;
+    width: 100px;
+  }
+
+  &__data {
+    padding: 15px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
